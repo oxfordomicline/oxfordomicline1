@@ -5,155 +5,168 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Oxford Omicline | Omics Research & Training</title>
   <meta name="description" content="Oxford Omicline provides omics research services, bioinformatics analysis, and professional training." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <style>
     body { margin:0; font-family:Inter, sans-serif; color:#1f2937; line-height:1.6; }
-    header { background:#0f172a; color:#fff; padding:80px 20px; text-align:center; }
+    header { color:#0f172a; padding:120px 20px; text-align:center; }
     header h1 { font-size:2.5rem; margin-bottom:10px; }
     header p { max-width:700px; margin:0 auto 30px; }
-    .btn { display:inline-block; padding:12px 24px; border-radius:6px; text-decoration:none; font-weight:600; }
-    .btn-primary { background:#22c55e; color:#0f172a; }
     section { padding:70px 20px; max-width:1100px; margin:auto; }
     h2 { font-size:2rem; margin-bottom:30px; text-align:center; }
     .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:30px; }
     .card { background:#f8fafc; padding:30px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,.05); }
-    .card h3 { margin-top:0; }
+    .card img { width:100%; border-radius:10px; }
     .why { background:#f1f5f9; }
-    .team img { width:100%; border-radius:12px; }
     footer { background:#020617; color:#cbd5f5; padding:40px 20px; text-align:center; }
     footer a { color:#22c55e; text-decoration:none; margin:0 10px; }
   </style>
 </head>
+
 <body>
 
-<header class="hero" style="background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('hero-omics.jpg'); background-size: cover; background-position: center; padding: 120px 20px; text-align: center;">
-  <div class="container">
-<nav class="navbar">
-  <div class="logo">Oxford Omicline</div>
-  <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About Us</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#courses">Courses / Training</a></li>
-    <li><a href="#team">Team</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-    <div class="hero-content">
-      <h1>Turning Complex Omics Data into Clear Biological Insight</h1>
-      <p>Oxford Omicline provides rigorous, reproducible bioinformatics and multi-omics analysis to support academic research, translational science, and industry innovation.</p>
-    </div>
-  </div>
+<header style="background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('hero-omics.png'); background-size: cover; background-position: center;">
+  <h1>Turning Complex Omics Data into Clear Biological Insight</h1>
+  <p>Oxford Omicline provides rigorous, reproducible bioinformatics and multi-omics analysis to support academic research, translational science, and industry innovation.</p>
 </header>
 
 <section id="about">
-  <h2>ABOUT OXFORD OMICLINE</h2>
+  <h2>About Oxford Omicline</h2>
   <div class="grid">
-    <div class="card"><h3>Oxford Omicline is a bioinformatics and omics research consultancy dedicated to transforming complex biological data into meaningful, actionable insight. We work closely with academic institutions, biotechnology companies, and clinical researchers to deliver high-quality, transparent, and reproducible data analysis across genomics, transcriptomics, metabolomics, and integrative multi-omics workflows. Our approach combines scientific rigor, advanced computational methods, and clear biological interpretation to support publication-ready research, grant applications, and data-driven decision making</h3>.</p></div>
-   </div>
+    <div class="card">
+      <p>
+        Oxford Omicline is a bioinformatics and omics research consultancy dedicated to transforming complex biological data into meaningful, actionable insight.
+        We collaborate with academic institutions, biotechnology companies, and clinical researchers to deliver high-quality, transparent, and reproducible
+        analysis across genomics, transcriptomics, metabolomics, and integrative multi-omics workflows.
+      </p>
+    </div>
+  </div>
 </section>
-  
+
 <section id="services">
   <h2>Our Services</h2>
   <div class="grid">
+
     <div class="card">
-      <img src="https://unsplash.com/photos/a-close-up-view-of-a-plant-cell-HC4kAQIUrfM" alt="Single-cell RNA-seq analysis" style="width:100%;border-radius:10px;">
+      <img src="fast.png" alt="Single-cell RNA-seq analysis">
       <h3>Single-cell RNA-seq Analysis</h3>
-      <p>We provide end-to-end single-cell RNA sequencing analysis, including quality control, normalization, clustering, differential expression, and biological interpretation.</p>
+      <p>End-to-end single-cell RNA sequencing analysis including QC, clustering, differential expression, and biological interpretation.</p>
     </div>
+
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1628595351029-c2bf17511435" alt="Spatial transcriptomics" style="width:100%;border-radius:10px;">
+      <img src="heatmap.png" alt="Spatial transcriptomics">
       <h3>Spatial Transcriptomics Analysis</h3>
-      <p>Advanced spatial omics workflows combining spatial information with transcriptomic profiles to understand tissue organization and cellular context.</p>
+      <p>Spatially resolved transcriptomics workflows to understand tissue architecture and cellular context.</p>
     </div>
+
     <div class="card">
-      <img src="images/bulkRNA.png" alt="Bulk RNA-seq" style="width:100%;border-radius:10px;">
+      <img src="bulkRNA.png" alt="Bulk RNA-seq">
       <h3>Bulk RNA-seq & Differential Expression</h3>
-      <p>Robust processing, alignment, quantification, and differential expression analysis for bulk RNA-seq experiments with publication-ready outputs.</p>
+      <p>Robust alignment, quantification, and differential expression analysis with publication-ready outputs.</p>
     </div>
+
     <div class="card">
-      <img src="images/multiomics.png" alt="Multi-omics integration" style="width:100%;border-radius:10px;">
+      <img src="multiomics.png" alt="Multi-omics integration">
       <h3>Multi-Omics Integration</h3>
-      <p>Integration of genomics, transcriptomics, proteomics, and other omics datasets to uncover complex biological insights.</p>
+      <p>Integrated analysis across genomics, transcriptomics, proteomics, and other omics layers.</p>
     </div>
+
     <div class="card">
-      <img src="images/workflows.png" alt="Reproducible workflows" style="width:100%;border-radius:10px;">
-      <h3>Reproducible, Publication-Ready Workflows</h3>
-      <p>Transparent, well-documented pipelines designed to ensure reproducibility, traceability, and confidence in published results.</p>
+      <img src="workflows.png" alt="Reproducible workflows">
+      <h3>Reproducible Workflows</h3>
+      <p>Transparent, version-controlled pipelines ensuring reproducibility and scientific rigor.</p>
     </div>
+
     <div class="card">
-      <img src="images/Biologicalinterpretation.png" alt="Biological interpretation" style="width:100%;border-radius:10px;">
+      <img src="Biologicalinterpretation.png" alt="Biological interpretation">
       <h3>Biological Interpretation & Reporting</h3>
-      <p>Clear, biologically meaningful reports with figures, pathway analysis, and actionable insights tailored to your research goals.</p>
+      <p>Clear, biologically meaningful reports with pathway analysis and actionable insights.</p>
     </div>
+
   </div>
 </section>
 
 <section class="why">
   <h2>Why Work With Oxford Omicline</h2>
   <div class="grid">
-    <div class="card">
-      <img src="images/Highquality.png" alt="High Quality Results" style="width:100%;border-radius:10px;">
-      <h3>High Quality Results</h3>
-      <p>Each project is thoroughly documented to ensure accuracy, reproducibility, and scientific rigor.</p>
-    </div>
-    <div class="card">
-      <img src="images/Transparent.png" alt="High Quality Results" style="width:100%;border-radius:10px;">
-      <h3>Transparent Processes</h3>
-      <p>We clearly communicate analysis strategies before starting and report all methods and parameters used.</p>
-    </div>
-    <div class="card">
-      <img src="images/Multi-Platform.png" alt="High Quality Results" style="width:100%;border-radius:10px;">
-      <h3>Multi-Platform Support</h3>
-      <p>Expertise across multiple sequencing platforms, including Illumina, ONP, and PacBio technologies.</p>
-    </div>
-    <div class="card">
-      <img src="images/secure.png" alt="High Quality Results" style="width:100%;border-radius:10px;">
-      <h3>Data Security Guaranteed</h3>
-      <p>Secure high-performance computing infrastructure with encryption and strict access controls.</p>
-    </div>
-    <div class="card">
-      <img src="images/Industry-Leading.png" alt="High Quality Results" style="width:100%;border-radius:10px;">
-      <h3>Industry-Leading Expertise</h3>
-      <p>A strong in-house bioinformatics team supported by an extensive scientific collaboration network.</p>
-    </div>
-    <div class="card">
-      <img src="images/fast.png" alt="High Quality Results" style="width:100%;border-radius:10px;">
-      <h3>Fast Turnaround Time</h3>
-      <p>Efficient pipelines and optimized workflows to deliver high-quality results quickly.</p>
-    </div>
-  </div>
-</section>
 
-<section id="courses">
-  <h2>Courses & Training</h2>
-  <div class="grid">
-    <div class="card"><h3>Intro to Bioinformatics</h3><p>Foundational skills for biological data analysis.</p></div>
-    <div class="card"><h3>RNA‑Seq Data Analysis</h3><p>Hands‑on training from raw data to publication‑ready results.</p></div>
-    <div class="card"><h3>Omics for Clinicians</h3><p>Practical interpretation of omics data in healthcare contexts.</p></div>
+    <div class="card">
+      <img src="Highquality.png" alt="High quality results">
+      <h3>High-Quality Results</h3>
+      <p>Every project is delivered with accuracy, documentation, and scientific rigor.</p>
+    </div>
+
+    <div class="card">
+      <img src="Transparent.png" alt="Transparent processes">
+      <h3>Transparent Processes</h3>
+      <p>Clear communication of methods, parameters, and analytical decisions.</p>
+    </div>
+
+    <div class="card">
+      <img src="Multi-Platform.png" alt="Multi platform support">
+      <h3>Multi-Platform Support</h3>
+      <p>Experience across Illumina, ONT, and PacBio sequencing technologies.</p>
+    </div>
+
+    <div class="card">
+      <img src="secure.png" alt="Data security">
+      <h3>Data Security</h3>
+      <p>Secure computing environments with strict access controls.</p>
+    </div>
+
+    <div class="card">
+      <img src="Industry-Leading.png" alt="Industry leading expertise">
+      <h3>Industry-Leading Expertise</h3>
+      <p>Expert bioinformaticians supported by a strong scientific network.</p>
+    </div>
+
+    <div class="card">
+      <img src="fast.png" alt="Fast turnaround">
+      <h3>Fast Turnaround</h3>
+      <p>Optimized pipelines delivering results efficiently.</p>
+    </div>
+
   </div>
 </section>
 
 <section class="team">
   <h2>Meet the Team</h2>
   <div class="grid">
-    <div class="card"><img src="images/waqas.png" alt="Team member"><h3>Dr Muhammad Waqas Ali CEO & Co-Founder</h3><p>Dr Muhammad Waqas Ali is a molecular biologist and bioinformatician with a PhD from the University of Birmingham. His research background spans molecular biology, genomics, and data-driven biological discovery. Dr Ali founded Oxford Omicline to bridge rigorous computational analysis with clear biological interpretation, supporting high-impact research and translational science.</p></div>
-    <div class="card"><img src="images/shahida.png" alt="Team member"><h3>Dr Shahida Rafique Senior Bioinformatician</h3><p>Dr Shahida Rafique is a Research Fellow at University College London with extensive experience in RNA biology, transcriptomics, and metabolomics. Her work focuses on the analysis of complex high-throughput datasets to uncover regulatory mechanisms and biological pathways underlying health and disease.</p></div>
-    <div class="card"><img src="images/flack.png" alt="Team member"><h3>Dr Friederike Flack Omics Scientist</h3><p>Dr Friederike Flack graduated from the University of Copenhagen and specialises in multi-omics data analysis. She has extensive experience in integrative omics workflows and statistical analysis, supporting data interpretation across diverse biological systems.</p></div>
-    <div class="card"><img src="images/james.png" alt="Team member"><h3>James Johnston Training Lead</h3><p>James Johnston is a training specialist with a degree from the University of Michigan. He leads Oxford Omicline’s training programmes, focusing on accessible, hands-on bioinformatics education for students and researchers at all levels.</p></div>
+
+    <div class="card">
+      <img src="waqas.png" alt="Dr Muhammad Waqas Ali">
+      <h3>Dr Muhammad Waqas Ali – CEO & Co-Founder</h3>
+      <p>Molecular biologist and bioinformatician with a PhD from the University of Birmingham.</p>
+    </div>
+
+    <div class="card">
+      <img src="shahida.png" alt="Dr Shahida Rafique">
+      <h3>Dr Shahida Rafique – Senior Bioinformatician</h3>
+      <p>Research Fellow at UCL specialising in transcriptomics and metabolomics.</p>
+    </div>
+
+    <div class="card">
+      <img src="flack.png" alt="Dr Friederike Flack">
+      <h3>Dr Friederike Flack – Omics Scientist</h3>
+      <p>Expert in integrative multi-omics workflows and statistical analysis.</p>
+    </div>
+
+    <div class="card">
+      <img src="james.png" alt="James Johnston">
+      <h3>James Johnston – Training Lead</h3>
+      <p>Leads hands-on bioinformatics training for researchers and clinicians.</p>
+    </div>
+
   </div>
 </section>
 
 <footer>
   <p>© 2026 Oxford Omicline</p>
   <p>
-    <a href="mailto:info@oxfordomicline.co.uk">info@oxfordomicline.co.uk</a> |
-    <a href="#">LinkedIn</a> |
-    <a href="#">Bluesky</a> |
-    <a href="#">Instagram</a> |
-    <a href="#">X</a>
+    <a href="mailto:info@oxfordomicline.co.uk">info@oxfordomicline.co.uk</a>
   </p>
 </footer>
 
